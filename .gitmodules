@@ -1,0 +1,15 @@
+[submodule "src/github.com/robfig/revel"]
+	path = src/github.com/robfig/revel
+	url = git@github.com:robfig/revel.git
+[submodule "src/github.com/robfig/config"]
+	path = src/github.com/robfig/config
+	url = git@github.com:robfig/config.git
+[submodule "src/github.com/robfig/pathtree"]
+	path = src/github.com/robfig/pathtree
+	url = git@github.com:robfig/pathtree.git
+[submodule "src/github.com/howeyc/fsnotify"]
+	path = src/github.com/howeyc/fsnotify
+	url = git@github.com:howeyc/fsnotify.git
+[submodule "src/github.com/streadway/simpleuuid"]
+	path = src/github.com/streadway/simpleuuid
+	url = git@github.com:streadway/simpleuuid.git
