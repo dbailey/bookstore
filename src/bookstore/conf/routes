@@ -6,6 +6,9 @@ module:testrunner
 
 GET     /                                       App.Index
 
+POST 		/books																	Books.Create
+GET 		/books																	Books.Index
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
