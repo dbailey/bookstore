@@ -13,3 +13,9 @@
 [submodule "src/github.com/streadway/simpleuuid"]
 	path = src/github.com/streadway/simpleuuid
 	url = git@github.com:streadway/simpleuuid.git
+[submodule "src/github.com/stretchr/testify"]
+	path = src/github.com/stretchr/testify
+	url = git@github.com:stretchr/testify.git
+[submodule "src/github.com/stretchr/objx"]
+	path = src/github.com/stretchr/objx
+	url = git@github.com:stretchr/objx.git

@@ -24,3 +24,5 @@ _testmain.go
 bin/revel
 bin/bookstore
 src/code.google.com/
+.#*
+\#*#

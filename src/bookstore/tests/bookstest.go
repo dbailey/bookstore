@@ -1,7 +1,9 @@
 package tests
 
 import (
+	"encoding/json"
 	"strings"
+	"github.com/stretchr/testify/assert"
 	"github.com/robfig/revel"
 )
 
@@ -21,4 +23,8 @@ func (t BooksTest) TestThatPostingToBooksControllerWorks() {
 
 	t.AssertOk()
 	t.AssertContentType("application/json")
+	body := t.ResponseBody
+	var jsonBody map[string]interface{}
+	_ = json.Unmarshal(body, &jsonBody)
+	t.Assert(assert.ObjectsAreEqual(jsonBody, map[string]interface{} { "title" : "fubar" }))
 }
